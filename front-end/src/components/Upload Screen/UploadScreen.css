@@ -6,7 +6,11 @@
     padding: 16px;
     border-bottom: 1px solid #ddd;
     background-color: #fff;
+<<<<<<< HEAD
 }
+=======
+  }
+>>>>>>> AI
 
 /* Logo Section */
 .logo {
@@ -16,6 +20,11 @@
     white-space: nowrap;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> AI
 .logo-text {
     font-size: 20px;
     font-weight: bold;
@@ -53,7 +62,11 @@
     color: blue;
     cursor: pointer;
     border-radius: 5px;
+<<<<<<< HEAD
     margin-right: 5px;
+=======
+    margin-right:5px;
+>>>>>>> AI
 }
 
 .btn-primary {
@@ -63,7 +76,11 @@
     color: white;
     cursor: pointer;
     border-radius: 5px;
+<<<<<<< HEAD
     margin-right: 5px;
+=======
+    margin-right:5px;
+>>>>>>> AI
 }
 
 /* Upload Box */
@@ -193,6 +210,7 @@
     color: #ffffff;
 }
 
+<<<<<<< HEAD
 /* Medicine Input */
 .medicine-input {
     margin: 20px auto;
@@ -299,5 +317,61 @@ h2 {
     margin-bottom: 12px;
     opacity: 1;
     animation: fadeInUp 1s ease-out forwards;
+=======
+/* Language Button */
+.btn-language {
+    background: linear-gradient(135deg, #333, #555);
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-language:hover {
+    background: linear-gradient(135deg, #555, #777);
+    transform: scale(1.05);
+}
+
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .subscribe input {
+    padding: 10px 12px;
+    border: 2px solid #007bff;
+    border-radius: 8px 0 0 8px;
+    width: 220px;
+    outline: none;
+    font-size: 14px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .subscribe input:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .subscribe button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .subscribe button:hover {
+    background: #0056b3;
+>>>>>>> AI
   }
   

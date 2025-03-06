@@ -1,12 +1,20 @@
 import React, { useState } from "react";
+<<<<<<< HEAD
 import { Upload, FileImage, CheckCircle, FileUp, X } from "lucide-react"; 
+=======
+import { Upload, FileImage, CheckCircle, FileUp } from "lucide-react";
+import Navbar from "../Nav/Navbar";  
+>>>>>>> AI
 import "./UploadScreen.css";
 
 export default function UploadScreen() {
   const [selectedFile, setSelectedFile] = useState(null);
+<<<<<<< HEAD
   const [medicine, setMedicine] = useState("");
   const [medicinesList, setMedicinesList] = useState([]);
   const [submittedData, setSubmittedData] = useState(null);
+=======
+>>>>>>> AI
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
@@ -15,6 +23,7 @@ export default function UploadScreen() {
     }
   };
 
+<<<<<<< HEAD
   const removeFile = () => {
     setSelectedFile(null);
   };
@@ -50,6 +59,11 @@ export default function UploadScreen() {
 
   return (
     <div className="container">
+=======
+  return (
+    <div className="container">
+
+>>>>>>> AI
       <div className="upload-container">
         <h2 className="upload-title">How to Upload Your Documents</h2>
 
@@ -105,14 +119,18 @@ export default function UploadScreen() {
                 <p className="file-name">{selectedFile.name}</p>
                 <p>{selectedFile.type}</p>
                 <p className="file-ready">Ready to Upload</p>
+<<<<<<< HEAD
                 <button className="btn-remove" onClick={removeFile}>
                   <X className="remove-icon" /> Remove Image
                 </button>
+=======
+>>>>>>> AI
               </div>
             </div>
           </div>
         )}
 
+<<<<<<< HEAD
         <div className="medicine-input">
           <label htmlFor="medicine">Enter the medicines you are taking:</label>
           <div className="medicine-entry">
@@ -138,11 +156,15 @@ export default function UploadScreen() {
         <button className="btn-submit large-btn" onClick={handleSubmit}>
           Submit for Review
         </button>
+=======
+        <button className="btn-submit large-btn">Submit for Review</button>
+>>>>>>> AI
         <p className="note">
           Your documents will be reviewed by a healthcare professional
         </p>
       </div>
 
+<<<<<<< HEAD
       {submittedData && (
         <div className="json-output">
           <h3>Submitted Data:</h3>
@@ -150,6 +172,8 @@ export default function UploadScreen() {
         </div>
       )}
 
+=======
+>>>>>>> AI
       <footer className="footer">
         <div className="subscribe">
           <input type="email" placeholder="Enter your email" />

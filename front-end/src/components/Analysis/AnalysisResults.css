@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+/* General Styles */
+>>>>>>> AI
 .container {
     display: flex;
     flex-direction: column;
@@ -6,7 +10,11 @@
     font-family: Arial, sans-serif;
   }
   
+<<<<<<< HEAD
 
+=======
+  /* Navbar */
+>>>>>>> AI
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -35,13 +43,21 @@
   .nav-link.active {
     border-bottom: 2px solid #007bff;
     font-weight: bold;
+<<<<<<< HEAD
     padding-bottom: 6px; 
+=======
+    padding-bottom: 6px; /* Ensures height remains constant */
+>>>>>>> AI
 }
   
   .nav-links {
     display: flex;
     gap: 16px;
+<<<<<<< HEAD
     margin-left: auto;  
+=======
+    margin-left: auto;  /* Moves links to the right */
+>>>>>>> AI
 }
 
 .nav-link {
@@ -72,7 +88,11 @@
     cursor: pointer;
   }
   
+<<<<<<< HEAD
  
+=======
+  /* Content */
+>>>>>>> AI
   .content {
     padding: 24px;
   }
@@ -105,7 +125,11 @@
     margin-right: 4px;
   }
   
+<<<<<<< HEAD
 
+=======
+  /* Card */
+>>>>>>> AI
   .card {
     background: white;
     padding: 20px;
@@ -118,6 +142,7 @@
   h2 {
     font-size: 18px;
     margin-bottom: 12px;
+<<<<<<< HEAD
     opacity:1;
     animation:fadeInUp 1s ease-out
   }
@@ -127,6 +152,8 @@
     margin-top:70px;
     opacity:1;
     animation:fadeInUp 1s ease-out
+=======
+>>>>>>> AI
   }
   
   .info-grid {
@@ -145,7 +172,11 @@
     font-weight: bold;
   }
   
+<<<<<<< HEAD
 
+=======
+  /* Table */
+>>>>>>> AI
   .table {
     width: 100%;
     border-collapse: collapse;
@@ -190,6 +221,7 @@
     height: 14px;
     margin-right: 4px;
   }
+<<<<<<< HEAD
   
 
 
@@ -252,3 +284,6 @@
 .chat-icon {
   font-size: 28px;
 }
+=======
+  
+>>>>>>> AI
