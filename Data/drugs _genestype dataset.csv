@@ -1,0 +1,477 @@
+Drug ID,Drug Name,Gene Type,Adverse Effect,label
+D001,Warfarin,CYP2C9*3,Increased bleeding risk,0.0
+D002,Clopidogrel,CYP2C19*2,Reduced drug effectiveness,0.0
+D003,Codeine,CYP2D6 PM,Lack of pain relief,0.0
+D004,Abacavir,HLA-B*57:01,Severe hypersensitivity,0.0
+D005,Fluorouracil,DPYD*2A,Severe toxicity,0.0
+P001,Atorvastatin,SLCO1B1*1A,Improved cholesterol clearance,1.0
+P002,Losartan,AGTR1 A1166C,Enhanced blood pressure control,1.0
+P003,Metoprolol,CYP2D6 UM,Increased drug effectiveness,1.0
+P004,Simvastatin,HMGCR Variant,Improved lipid response,1.0
+P005,Aspirin,ITGB3 Leu33Pro,Enhanced antiplatelet effect,1.0
+P006,Warfarin,VKORC1 G-1639A,Better dose predictability,1.0
+P007,Clopidogrel,CYP2C19*17,Enhanced drug activation,1.0
+P008,Rosuvastatin,ABCG2 Q141K,Improved cholesterol-lowering effect,1.0
+P009,Hydrochlorothiazide,NPPA Variant,Enhanced diuretic response,1.0
+P010,Enalapril,ACE I/D,Better blood pressure control,1.0
+D006,Carbamazepine,HLA-B*15:02,Stevens-Johnson syndrome,0.0
+D007,Simvastatin,SLCO1B1*5,Increased myopathy risk,0.0
+D008,Tacrolimus,CYP3A5*3,Altered drug metabolism,0.0
+D009,Azathioprine,TPMT*3A,Bone marrow suppression,0.0
+D010,Phenytoin,CYP2C9*2,Increased neurotoxicity,0.0
+D011,Irinotecan,UGT1A1*28,Severe diarrhea and neutropenia,0.0
+D012,Methotrexate,ABCC2,Increased toxicity,0.0
+P011,Ramipril,AGT M235T,Improved antihypertensive effect,1.0
+P012,Lisinopril,SLC22A2 Variant,Enhanced drug absorption,1.0
+P013,Omeprazole,CYP2C19*17,Increased metabolism,1.0
+D016,Tamoxifen,CYP2D6*4,Reduced effectiveness,0.0
+D017,Efavirenz,CYP2B6*6,Increased CNS toxicity,0.0
+D018,Omeprazole,CYP2C19*2,Reduced metabolism,0.0
+D019,Escitalopram,SLC6A4,Altered drug response,0.0
+D020,Ibuprofen,CYP2C9*3,Increased gastrointestinal risk,0.0
+P014,Esomeprazole,CYP2C19*17,Enhanced drug clearance,1.0
+P015,Lansoprazole,CYP2C19*1,Improved acid suppression,1.0
+P016,Pantoprazole,CYP2C19*1,Optimal metabolism,1.0
+P017,Rifampin,NR1I2 Variant,Improved bacterial clearance,1.0
+P018,Isoniazid,NAT2*4,Better drug activation,1.0
+D013,Voriconazole,CYP2C19*17,Altered drug clearance,0.0
+D014,Allopurinol,HLA-B*58:01,Severe skin reactions,0.0
+D015,Mercaptopurine,TPMT*2,Severe bone marrow suppression,0.0
+D021,Paroxetine,CYP2D6*4,Reduced drug efficacy,0.0
+D022,Fluoxetine,CYP2D6*10,Increased side effects,0.0
+D023,Carvedilol,CYP2D6*5,Altered drug metabolism,0.0
+D024,Metoprolol,CYP2D6 PM,Increased drug concentration,0.0
+D025,Tramadol,CYP2D6 IM,Reduced pain relief,0.0
+P020,Nevirapine,CYP3A4*1B,Enhanced drug clearance,1.0
+P021,Dolutegravir,SLCO1B1 Normal,Better absorption,1.0
+P022,Tenofovir,ABCC2 Variant,Improved drug transport,1.0
+P029,Aripiprazole,DRD2 -141C,Better schizophrenia treatment response,1.0
+P030,Clozapine,HTR2A -1438G/A,Enhanced antipsychotic effect,1.0
+D026,Lansoprazole,CYP2C19*17,Altered drug clearance,0.0
+D027,Rabeprazole,CYP2C19*2,Reduced effectiveness,0.0
+D028,Esomeprazole,CYP2C19*3,Altered metabolism,0.0
+P023,Methotrexate,SLC19A1,Better cellular uptake,1.0
+P024,Tamoxifen,CYP2D6*1,Improved breast cancer response,1.0
+P025,Carboplatin,GSTP1 Ile105Val,Better chemotherapy response,1.0
+P026,Fluorouracil,TYMS 2R/2R,Improved drug response,1.0
+P027,Gemcitabine,RRM1 37A,Increased drug activation,1.0
+P028,Cisplatin,ERCC2 Lys751Gln,Improved DNA repair response,1.0
+D029,Pantoprazole,CYP2C19 PM,Increased drug levels,0.0
+D030,Risperidone,CYP2D6*4,Higher risk of side effects,0.0
+D031,Haloperidol,CYP2D6*5,Increased drug levels,0.0
+D032,Atomoxetine,CYP2D6 PM,Altered effectiveness,0.0
+D033,Celecoxib,CYP2C9*3,Increased gastrointestinal risk,0.0
+D034,Diclofenac,CYP2C9*2,Higher risk of liver toxicity,0.0
+D035,Losartan,CYP2C9*3,Reduced antihypertensive effect,0.0
+D036,Valsartan,SLCO1B1*5,Altered drug clearance,0.0
+D037,Lovastatin,SLCO1B1*5,Increased muscle toxicity,0.0
+P031,Dapagliflozin,SLC5A2 Normal,Improved glucose clearance,1.0
+P032,Empagliflozin,SLC5A2 Normal,Enhanced glucose excretion,1.0
+P033,Canagliflozin,SLC5A2 Normal,Better diabetes control,1.0
+P034,Metformin,SLC22A1 Normal,Improved glucose uptake,1.0
+P035,Pioglitazone,PPARG Normal,Enhanced insulin sensitivity,1.0
+P036,Glipizide,KCNJ11 Variant,Better pancreatic response,1.0
+P037,Glyburide,ABCC8 Variant,Optimized insulin release,1.0
+P038,Repaglinide,SLCO1B1 Normal,Better glucose metabolism,1.0
+D038,Rosuvastatin,SLCO1B1*17,Higher statin concentration,0.0
+D039,Fluvastatin,CYP2C9*3,Altered lipid-lowering effect,0.0
+D040,Methadone,CYP2B6*6,Increased risk of toxicity,0.0
+D041,Bupropion,CYP2B6*6,Reduced drug metabolism,0.0
+D042,Clobazam,CYP2C19 PM,Increased drug accumulation,0.0
+D043,Diazepam,CYP2C19*3,Altered sedation response,0.0
+D044,Citalopram,CYP2C19*2,Prolonged drug effect,0.0
+D045,Sertraline,CYP2C19*17,Altered antidepressant response,0.0
+P039,Liraglutide,GLP1R Normal,Enhanced weight loss,1.0
+P040,Semaglutide,GLP1R Normal,Improved diabetes management,1.0
+P041,Exenatide,GLP1R Variant,Increased insulin release,1.0
+P042,Levothyroxine,DIO2 Thr92Ala,Optimized thyroid hormone activation,1.0
+P043,Liothyronine,THRB Variant,Better thyroid response,1.0
+P044,Testosterone,AR CAG Repeat,Improved hormonal balance,1.0
+P045,Estradiol,ESR1 Variant,Optimized estrogen response,1.0
+D046,Doxepin,CYP2D6 PM,Increased risk of side effects,0.0
+D047,Nortriptyline,CYP2D6*4,Reduced metabolism,0.0
+D048,Amitriptyline,CYP2D6*5,Higher risk of toxicity,0.0
+D049,Desipramine,CYP2D6*10,Altered effectiveness,0.0
+D050,Imipramine,CYP2D6 PM,Prolonged drug activity,0.0
+D051,Tizanidine,CYP1A2*1F,Increased sedation,0.0
+D052,Clarithromycin,CYP3A4*22,Altered drug metabolism,0.0
+D053,Erythromycin,CYP3A5*3,Increased toxicity risk,0.0
+D054,Rifampin,SLCO1B1*5,Reduced drug clearance,0.0
+D055,Isoniazid,NAT2*5,Slow metabolism leading to toxicity,0.0
+D056,Sulfasalazine,ABCB1,Reduced drug absorption,0.0
+D057,Linezolid,GSTM1 null,Increased oxidative stress,0.0
+D058,Vancomycin,CYP3A5*3,Altered drug clearance,0.0
+D059,Ceftriaxone,UGT1A1*28,Hyperbilirubinemia risk,0.0
+D060,Levofloxacin,CYP1A2*1F,Altered drug metabolism,0.0
+D061,Moxifloxacin,G6PD Deficiency,Hemolysis risk,0.0
+P046,Progesterone,PGR Variant,Enhanced pregnancy maintenance,1.0
+P047,Sertraline,SLC6A4 L/L,Improved antidepressant response,1.0
+P048,Fluoxetine,HTR2A 102C,Better serotonin regulation,1.0
+P049,Citalopram,SLC6A4 Normal,Enhanced drug effectiveness,1.0
+P050,Paroxetine,CYP2D6 Normal,Optimal drug metabolism,1.0
+P051,Bupropion,DRD2 Variant,Improved smoking cessation support,1.0
+P052,Varenicline,CHRNA5 Normal,Enhanced nicotine cessation,1.0
+P053,Albuterol,ADRB2 Gly16Arg,Improved asthma control,1.0
+D062,Nitrofurantoin,G6PD Deficiency,Severe anemia,
+D063,Chloramphenicol,GSTM1 null,Bone marrow suppression,0.0
+D064,Tetracycline,SLC22A4,Altered antibiotic response,0.0
+D065,Doxycycline,CYP3A5*3,Increased drug exposure,0.0
+D066,Minocycline,CYP2D6*10,Increased neurotoxicity,0.0
+D067,Gentamicin,MT-RNR1,Hearing loss risk,0.0
+D068,Amikacin,MT-RNR1,Ototoxicity,0.0
+P054,Montelukast,LTC4S Variant,Better leukotriene inhibition,1.0
+P055,Fluticasone,NR3C1 Variant,Optimized anti-inflammatory response,1.0
+P056,Prednisone,NR3C1 Variant,Better glucocorticoid response,1.0
+P057,Methotrexate,FPGS Variant,Enhanced folate metabolism,1.0
+P058,Sulfasalazine,NAT2 Normal,Improved anti-inflammatory response,1.0
+P059,Azathioprine,ITPA Variant,Reduced drug toxicity,1.0
+P060,Mycophenolate,SLCO2B1 Normal,Better immunosuppressive response,1.0
+D069,Streptomycin,GJB2 Mutation,Permanent hearing loss,0.0
+D070,Metformin,SLC22A1,Altered drug absorption,0.0
+D071,Glibenclamide,ABCC8,Increased hypoglycemia risk,0.0
+D072,Repaglinide,SLCO1B1*5,Altered drug clearance,0.0
+D073,Rosiglitazone,CYP2C8*3,Altered metabolism,0.0
+D074,Pioglitazone,CYP2C8*2,Reduced drug clearance,0.0
+D075,Sitagliptin,DPP4 Mutation,Altered drug effectiveness,0.0
+D076,Canagliflozin,SLC5A2 Mutation,Reduced drug response,0.0
+D077,Empagliflozin,CYP3A4*22,Altered drug metabolism,0.0
+D078,Liraglutide,GLP1R Mutation,Reduced treatment efficacy,0.0
+D079,Exenatide,DPP4 Mutation,Altered glucose control,0.0
+D079,Exenatide,DPP4 Mutation,Altered glucose control,0.0
+D080,Pramlintide,LEPR Mutation,Reduced drug response,0.0
+D081,Paclitaxel,CYP2C8*3,Altered drug metabolism,0.0
+D082,Docetaxel,CYP3A4*22,Increased toxicity risk,0.0
+P063,Lenalidomide,CRBN Normal,Optimized anti-cancer activity,1.0
+P064,Rituximab,FCGR3A Variant,Better B-cell depletion,1.0
+P065,Bevacizumab,VEGFA Variant,Improved anti-angiogenic response,1.0
+P066,Trastuzumab,HER2 Normal,Enhanced breast cancer treatment,1.0
+D083,Cyclophosphamide,CYP2B6*6,Altered drug activation,0.0
+D084,Ifosfamide,CYP3A5*3,Neurotoxicity risk,0.0
+D085,Doxorubicin,ABCC2,Cardiotoxicity risk,0.0
+D086,Epirubicin,SLC22A16,Altered drug clearance,0.0
+D087,Mitomycin C,NQO1*2,Reduced drug activation,0.0
+D088,Cisplatin,ERCC1,Altered DNA repair response,0.0
+D089,Carboplatin,GSTP1,Reduced detoxification,0.0
+D090,Oxaliplatin,XRCC1,Altered DNA repair,0.0
+D091,Topotecan,ABCG2,Increased drug accumulation,0.0
+D092,Etoposide,CYP3A4*1B,Altered drug metabolism,0.0
+D093,Teniposide,ABCB1,Reduced drug transport,0.0
+D094,Vincristine,CYP3A5*3,Increased neurotoxicity,0.0
+D095,Vinblastine,CYP3A4*22,Altered drug clearance,0.0
+P067,Pembrolizumab,PD-L1 Overexpression,Increased immune activation,1.0
+P068,Nivolumab,PD-1 Variant,Improved cancer immunotherapy,1.0
+P069,Tocilizumab,IL6R Variant,Better rheumatoid arthritis response,1.0
+P070,Adalimumab,TNF Variant,Optimized anti-inflammatory effect,1.0
+D096,Vinorelbine,CYP3A5*6,Increased toxicity,0.0
+D097,Bleomycin,DPYD*2A,Severe pulmonary toxicity,0.0
+D098,Methotrexate,SLCO1B1*5,Altered drug transport,0.0
+D099,Capecitabine,TYMS,Altered drug effectiveness,0.0
+D100,Gemcitabine,CDA,Reduced drug activation,0.0
+D101,Erlotinib,EGFR Mutation,Altered treatment response,0.0
+D102,Gefitinib,CYP3A4*22,Altered drug metabolism,0.0
+D103,Sorafenib,UGT1A9,Altered drug clearance,0.0
+D104,Sunitinib,CYP3A5*3,Increased drug exposure,0.0
+D105,Imatinib,ABCG2,Altered drug transport,0.0
+P071,Insulin,INSR Normal,Improved glucose uptake,1.0
+P072,Glimepiride,KCNJ11 Normal,Better pancreatic beta-cell response,1.0
+P073,Sitagliptin,DPP4 Normal,Enhanced incretin effect,1.0
+P074,Linagliptin,DPP4 Variant,Improved glucose regulation,1.0
+P075,Rivaroxaban,F5 Normal,Optimized anticoagulation response,1.0
+D106,Dasatinib,CYP3A4*1B,Altered metabolism,0.0
+D107,Nilotinib,UGT1A1*28,Increased toxicity risk,0.0
+D108,Lapatinib,CYP2C19*2,Reduced drug clearance,0.0
+D109,Crizotinib,CYP3A5*3,Altered drug metabolism,0.0
+D110,Ibrutinib,CYP3A4*22,Increased drug exposure,0.0
+D111,Everolimus,ABCB1,Altered drug transport,0.0
+P076,Apixaban,F2 Normal,Better clot prevention,1.0
+P077,Dabigatran,CES1 Normal,Enhanced drug activation,1.0
+P078,Edoxaban,SLCO1B1 Normal,Improved blood thinner effect,1.0
+D112,Sirolimus,CYP3A5*3,Increased drug exposure,0.0
+D113,Temsirolimus,CYP3A4*22,Altered metabolism,0.0
+D114,Carmustine,MGMT,Reduced DNA repair ability,0.0
+D115,Lomustine,GSTP1,Increased toxicity risk,0.0
+D116,Procarbazine,NAT2*5,Slow metabolism leading to toxicity,0.0
+D117,Thiotepa,CYP2B6*6,Altered drug activation,0.0
+D118,Busulfan,GSTA1,Reduced detoxification,0.0
+D119,Melphalan,SLC22A16,Altered drug transport,0.0
+D120,Chlorambucil,GSTM1 null,Altered drug metabolism,0.0
+D121,Lenalidomide,ABCB1,Increased drug accumulation,0.0
+P081,Ticagrelor,P2RY12 Normal,Enhanced platelet inhibition,1.0
+P082,Prasugrel,CYP2C19 Normal,Improved antiplatelet activity,1.0
+P083,Ezetimibe,NPC1L1 Variant,Better cholesterol absorption control,1.0
+P084,Alirocumab,PCSK9 Variant,Enhanced LDL reduction,1.0
+D122,Thalidomide,CYP2C19*2,Altered drug metabolism,0.0
+D123,Bortezomib,PSMB5,Altered drug response,0.0
+D124,Carfilzomib,CYP3A4*22,Altered metabolism,0.0
+D125,Ixazomib,CYP3A5*3,Increased toxicity,0.0
+D126,Ruxolitinib,CYP3A4*1B,Altered drug metabolism,0.0
+D127,Tofacitinib,CYP3A5*3,Increased drug exposure,0.0
+D128,Baricitinib,SLC22A8,Altered drug clearance,0.0
+D129,Upadacitinib,CYP3A4*22,Increased drug concentration,0.0
+D130,Tacrolimus,ABCB1,Altered drug transport,0.0
+D131,Cyclosporine,CYP3A5*3,Increased drug accumulation,0.0
+D132,Mycophenolate,UGT1A9,Altered metabolism,0.0
+D133,Azathioprine,NUDT15*3,Severe toxicity risk,0.0
+D134,Sirolimus,CYP3A4*1B,Increased drug exposure,0.0
+D135,Leflunomide,DHODH,Altered drug response,0.0
+D136,Methotrexate,MTHFR,Increased toxicity risk,0.0
+D137,Sulfasalazine,ABCB1,Reduced drug absorption,0.0
+D138,Mesalamine,NAT2*5,Altered metabolism,0.0
+D139,Hydroxychloroquine,CYP2D6*4,Altered drug clearance,0.0
+D140,Chloroquine,G6PD Deficiency,Hemolysis risk,0.0
+D141,Atorvastatin,SLCO1B1*5,Increased myopathy risk,0.0
+D142,Lovastatin,SLCO1B1*5,Altered drug clearance,0.0
+D143,Rosuvastatin,ABCG2,Increased drug accumulation,0.0
+D144,Pravastatin,SLCO1B1*1B,Altered drug transport,0.0
+D145,Fluvastatin,CYP2C9*3,Altered metabolism,0.0
+D146,Pitavastatin,SLCO1B1*5,Increased drug concentration,0.0
+D147,Gemfibrozil,CYP2C8*3,Altered drug metabolism,0.0
+D148,Fenofibrate,ABCG2,Reduced drug clearance,0.0
+D149,Ezetimibe,NPC1L1,Reduced drug effectiveness,0.0
+D150,Colchicine,ABCB1,Increased toxicity,0.0
+P084,Alirocumab,PCSK9 Variant,Enhanced LDL reduction,1.0
+P085,Evolocumab,PCSK9 Normal,Improved cholesterol control,1.0
+P086,Levocetirizine,H1R Normal,Better allergy relief,1.0
+D151,Digoxin,ABCB1,Altered drug transport,0.0
+D152,Furosemide,SLC22A11,Reduced drug clearance,0.0
+D153,Spironolactone,CYP2C8*3,Altered drug metabolism,0.0
+D154,Eplerenone,CYP3A4*22,Increased drug exposure,0.0
+D155,Hydrochlorothiazide,SLC12A3,Altered drug response,0.0
+D156,Metoprolol,CYP2D6*4,Increased drug concentration,0.0
+D157,Propranolol,CYP2D6*10,Altered metabolism,0.0
+D158,Atenolol,SLC22A1,Reduced drug transport,0.0
+D159,Bisoprolol,CYP2D6*4,Increased drug exposure,0.0
+D160,Diltiazem,CYP3A5*3,Altered drug clearance,0.0
+D161,Verapamil,ABCB1,Altered drug transport,0.0
+D162,Amlodipine,CYP3A4*22,Altered drug metabolism,0.0
+D163,Lisinopril,SLC22A2,Reduced drug effectiveness,0.0
+D164,Ramipril,ACE I/D,Altered drug response,0.0
+D165,Losartan,CYP2C9*3,Reduced drug activation,0.0
+D166,Valsartan,ABCB1,Increased drug accumulation,0.0
+D167,Candesartan,CYP2C9*2,Altered drug clearance,0.0
+D168,Olmesartan,SLC22A6,Altered drug transport,0.0
+D169,Warfarin,VKORC1,Increased bleeding risk,0.0
+D170,Dabigatran,CES1,Altered drug metabolism,0.0
+D171,Clopidogrel,CYP2C19*3,Reduced drug effectiveness,0.0
+D172,Ticagrelor,ABCB1,Increased bleeding risk,0.0
+D173,Prasugrel,CYP3A5*3,Altered drug metabolism,0.0
+D174,Rivaroxaban,CYP3A4*22,Increased drug exposure,0.0
+D175,Apixaban,ABCB1,Altered drug transport,0.0
+D176,Edoxaban,CES1,Reduced drug metabolism,0.0
+D177,Fondaparinux,F5 Leiden,Increased thrombosis risk,0.0
+D178,Enoxaparin,SERPINC1,Altered anticoagulation response,0.0
+D179,Heparin,ATIII Deficiency,Reduced anticoagulation,0.0
+D180,Dalteparin,F2 Mutation,Increased clotting risk,0.0
+P087,Fexofenadine,SLCO1B1 Normal,Improved antihistamine response,1.0
+P088,Cetirizine,H1R Variant,Enhanced anti-allergy effect,1.0
+P089,Montelukast,LTC4S Normal,Better asthma control,1.0
+P090,Omalizumab,IgE Normal,Improved allergic asthma treatment,1.0
+D181,Betrixaban,CYP3A4*1B,Altered drug metabolism,0.0
+D181,Betrixaban,CYP3A4*1B,Altered drug metabolism,0.0
+D182,Lepirudin,HLA-DRB1,Increased immune response,0.0
+D183,Bivalirudin,F5 Leiden,Altered anticoagulation,0.0
+D184,Argatroban,CYP2C9*2,Increased drug exposure,0.0
+D185,Alteplase,PAI-1 Mutation,Reduced drug effectiveness,0.0
+D186,Reteplase,FGB Mutation,Increased bleeding risk,0.0
+D187,Tenecteplase,PLAT Gene Variant,Altered fibrinolysis,0.0
+D188,Streptokinase,HLA Class II,Increased immune response,0.0
+D189,Urokinase,SERPINE1,Altered clot breakdown,0.0
+D190,Desmopressin,VWF Mutation,Reduced drug effectiveness,0.0
+D191,Tolvaptan,AVPR2 Mutation,Altered drug response,0.0
+D192,Conivaptan,CYP3A4*22,Altered drug metabolism,0.0
+D193,Hydrocortisone,NR3C1,Altered drug response,0.0
+D194,Prednisone,CYP3A5*3,Increased drug clearance,0.0
+D195,Methylprednisolone,ABCB1,Altered drug transport,0.0
+D196,Dexamethasone,CYP3A4*1B,Increased drug metabolism,0.0
+D197,Fludrocortisone,NR3C2,Altered mineralocorticoid response,0.0
+D198,Triamcinolone,CYP3A5*6,Altered drug clearance,0.0
+P091,Salbutamol,ADRB2 Normal,Enhanced bronchodilation,1.0
+P092,Formoterol,ADRB2 Variant,Better lung function improvement,1.0
+P093,Tiotropium,CHRM3 Normal,Optimized COPD treatment,1.0
+P097,Methadone,OPRM1 Normal,Better pain management,1.0
+D199,Betamethasone,HSD11B1,Increased drug activation,0.0
+D200,Beclomethasone,CYP3A4*22,Altered metabolism,0.0
+D171,Clopidogrel,CYP2C19*3,Reduced drug effectiveness,0.0
+D172,Ticagrelor,ABCB1,Increased bleeding risk,0.0
+D173,Prasugrel,CYP3A5*3,Altered drug metabolism,0.0
+D174,Rivaroxaban,CYP3A4*22,Increased drug exposure,0.0
+D175,Apixaban,ABCB1,Altered drug transport,0.0
+D176,Edoxaban,CES1,Reduced drug metabolism,0.0
+P094,Theophylline,CYP1A2 Normal,Improved respiratory response,1.0
+P095,Budesonide,NR3C1 Normal,Enhanced anti-inflammatory action,1.0
+P096,Dexamethasone,NR3C1 Variant,Optimized corticosteroid response,1.0
+D177,Fondaparinux,F5 Leiden,Increased thrombosis risk,0.0
+D178,Enoxaparin,SERPINC1,Altered anticoagulation response,0.0
+D179,Heparin,ATIII Deficiency,Reduced anticoagulation,0.0
+D180,Dalteparin,F2 Mutation,Increased clotting risk,0.0
+D181,Betrixaban,CYP3A4*1B,Altered drug metabolism,0.0
+D182,Lepirudin,HLA-DRB1,Increased immune response,0.0
+P101,Celecoxib,CYP2C9 Normal,Improved COX-2 inhibition,1.0
+P102,Morphine,OPRM1 Variant,Better opioid receptor binding,1.0
+P103,Fentanyl,CYP3A4 Normal,Optimized metabolism,1.0
+P104,Cyclophosphamide,CYP2B6 Normal,Improved chemotherapy response,1.0
+P105,Doxorubicin,ABCB1 Normal,Better tumor penetration,1.0
+P106,Paclitaxel,CYP3A5 Normal,Optimized drug metabolism,1.0
+D183,Bivalirudin,F5 Leiden,Altered anticoagulation,0.0
+D184,Argatroban,CYP2C9*2,Increased drug exposure,0.0
+D185,Alteplase,PAI-1 Mutation,Reduced drug effectiveness,0.0
+D186,Reteplase,FGB Mutation,Increased bleeding risk,0.0
+D187,Tenecteplase,PLAT Gene Variant,Altered fibrinolysis,0.0
+D188,Streptokinase,HLA Class II,Increased immune response,0.0
+D189,Urokinase,SERPINE1,Altered clot breakdown,0.0
+D190,Desmopressin,VWF Mutation,Reduced drug effectiveness,0.0
+D191,Tolvaptan,AVPR2 Mutation,Altered drug response,0.0
+D192,Conivaptan,CYP3A4*22,Altered drug metabolism,0.0
+D193,Hydrocortisone,NR3C1,Altered drug response,0.0
+P107,Vincristine,CYP3A4 Normal,Improved drug clearance,1.0
+P108,Everolimus,MTOR Variant,Better immunosuppressive effect,1.0
+P109,Sirolimus,CYP3A5*1,Optimized drug absorption,1.0
+P110,Belimumab,TNFSF13B Normal,Enhanced autoimmune disease control,1.0
+D194,Prednisone,CYP3A5*3,Increased drug clearance,0.0
+D195,Methylprednisolone,ABCB1,Altered drug transport,0.0
+D196,Dexamethasone,CYP3A4*1B,Increased drug metabolism,0.0
+D197,Fludrocortisone,NR3C2,Altered mineralocorticoid response,0.0
+D198,Triamcinolone,CYP3A5*6,Altered drug clearance,0.0
+D199,Betamethasone,HSD11B1,Increased drug activation,0.0
+P211,Insulin,INSR Normal,Better glucose regulation,1.0
+P212,Glucagon,GCG Normal,Optimized blood sugar elevation,1.0
+P213,Somatropin,GH1 Normal,Better growth hormone response,1.0
+D202,Carbidopa,DDC Mutation,Reduced drug activation,0.0
+D203,Entacapone,COMT Haplotypes,Increased side effects,0.0
+D204,Selegiline,CYP2B6*6,Altered drug metabolism,0.0
+P214,Octreotide,SSTR2 Normal,Improved acromegaly treatment,1.0
+P215,Lanreotide,SSTR2 Variant,Optimized growth hormone suppression,1.0
+D200,Beclomethasone,CYP3A4*22,Altered metabolism,0.0
+D201,Levodopa,COMT Val158Met,Altered dopamine metabolism,0.0
+P112,Losartan,AGTR1 Normal,Optimized blood pressure control,1.0
+P113,Valsartan,AGTR1 Variant,Better hypertension management,1.0
+D205,Rasagiline,CYP1A2*1F,Increased drug concentration,0.0
+D206,Pramipexole,SLC22A1,Reduced drug transport,0.0
+D207,Ropinirole,CYP1A2*1C,Altered drug metabolism,0.0
+P114,Metoprolol,ADRB1 Normal,Improved beta-blocker response,1.0
+P115,Propranolol,ADRB1 Variant,Enhanced heart rate regulation,1.0
+P116,Hydrochlorothiazide,SLC12A3 Normal,Better sodium balance,1.0
+P117,Furosemide,SLC12A1 Normal,Optimized diuretic response,1.0
+D208,Rotigotine,CYP2C19*17,Increased drug clearance,0.0
+D209,Amantadine,SLC6A3,Altered dopamine uptake,0.0
+D210,Tetrabenazine,CYP2D6*4,Reduced drug effectiveness,0.0
+D211,Deutetrabenazine,CYP2D6*10,Altered drug metabolism,0.0
+D212,Valbenazine,CYP3A4*22,Increased drug exposure,0.0
+D213,Donepezil,CYP2D6*5,Reduced drug activation,0.0
+D214,Rivastigmine,BCHE K-Variant,Increased drug toxicity,0.0
+P118,Spironolactone,NR3C2 Normal,Better potassium retention,1.0
+P119,Eplerenone,NR3C2 Variant,Optimized aldosterone antagonism,1.0
+P120,Atorvastatin,HMGCR Normal,Enhanced cholesterol reduction,1.0
+P121,Rosuvastatin,SLCO1B1 Normal,Improved lipid metabolism,1.0
+D215,Galantamine,CYP2D6*4,Altered drug metabolism,0.0
+D216,Memantine,GRIN2A Mutation,Altered NMDA receptor response,0.0
+D217,Caffeine,CYP1A2*1F,Increased sensitivity,0.0
+D218,Theophylline,CYP1A2*1C,Reduced drug metabolism,0.0
+D219,Aminophylline,ADORA2A,Increased side effects,0.0
+D220,Doxorubicin,ABCB1,Altered drug transport,0.0
+P122,Lovastatin,HMGCR Variant,Better LDL lowering effect,1.0
+P123,Simvastatin,SLCO1B1 Variant,Optimized statin response,1.0
+P124,Fenofibrate,PPARG Variant,Improved triglyceride control,1.0
+P125,Gemfibrozil,PPARG Normal,Better lipid profile improvement,1.0
+D221,Daunorubicin,GSTM1 null,Increased toxicity,0.0
+D222,Epirubicin,CYP3A5*3,Altered drug clearance,0.0
+D223,Idarubicin,SLC22A16,Altered drug uptake,0.0
+D224,Mitoxantrone,ABCG2,Increased drug accumulation,0.0
+D225,Paclitaxel,CYP2C8*3,Altered metabolism,0.0
+D226,Docetaxel,CYP3A4*22,Increased drug exposure,0.0
+P126,Epinephrine,ADRB2 Variant,Enhanced bronchodilation,1.0
+P127,Dopamine,DRD1 Normal,Optimized cardiovascular function,1.0
+D227,Vincristine,CYP3A5*3,Altered metabolism,0.0
+D228,Vinblastine,ABCB1,Increased drug accumulation,0.0
+D229,Vinorelbine,CYP3A4*1B,Altered drug clearance,0.0
+D230,Etoposide,ABCB1,Altered drug transport,0.0
+D231,Teniposide,CYP2C9*3,Increased drug concentration,0.0
+P128,Dobutamine,ADRB1 Normal,Improved heart contractility,1.0
+P129,Isoproterenol,ADRB2 Normal,Better cardiac output,1.0
+P130,Levosimendan,TNNC1 Normal,Enhanced heart failure treatment,1.0
+D232,Ifosfamide,CYP2B6*6,Altered drug activation,0.0
+D233,Cyclophosphamide,CYP2B6*4,Altered drug metabolism,0.0
+D234,Cisplatin,ERCC1,Reduced DNA repair ability,0.0
+D235,Carboplatin,GSTP1,Increased toxicity risk,0.0
+D236,Oxaliplatin,SLC22A2,Altered drug transport,0.0
+D237,5-Fluorouracil,DPYD*13,Severe toxicity risk,0.0
+P131,Ranitidine,HRH2 Normal,Improved gastric acid suppression,1.0
+P132,Famotidine,HRH2 Variant,Better peptic ulcer healing,1.0
+P133,Omeprazole,CYP2C19 Normal,Enhanced acid reflux control,1.0
+P134,Pantoprazole,CYP2C19 Variant,Optimized PPI effectiveness,1.0
+P135,Esomeprazole,CYP2C19 Normal,Better GERD management,1.0
+D238,Capecitabine,TYMS 3R/3R,Altered drug response,0.0
+D239,Gemcitabine,CDA*3,Increased drug accumulation,0.0
+D240,Cytarabine,DCK Mutation,Altered drug activation,0.0
+D241,Methadone,CYP2B6*6,Altered drug metabolism,0.0
+P136,Baclofen,GABBR1 Normal,Improved muscle relaxation,1.0
+P137,Cyclobenzaprine,CYP1A2 Normal,Better spasticity control,1.0
+P138,Tizanidine,ADRA2A Normal,Enhanced muscle spasm relief,1.0
+P139,Carisoprodol,GABAA Normal,Optimized muscle relaxation,1.0
+P140,Methocarbamol,CYP2E1 Normal,Improved pain relief,1.0
+P141,Ondansetron,HTR3A Normal,Better nausea prevention,1.0
+D242,Tramadol,CYP2D6 PM,Reduced analgesic effect,0.0
+D243,Oxycodone,CYP3A5*3,Altered drug clearance,0.0
+D244,Hydrocodone,CYP2D6*4,Reduced conversion to active form,0.0
+D245,Fentanyl,CYP3A4*22,Increased drug exposure,0.0
+D246,Morphine,UGT2B7*2,Altered metabolism,0.0
+P142,Granisetron,HTR3B Variant,Optimized antiemetic response,1.0
+P143,Metoclopramide,DRD2 Normal,Enhanced gastric emptying,1.0
+P144,Domperidone,DRD2 Variant,Better dopamine antagonist effect,1.0
+P145,Loperamide,OPRM1 Normal,Improved diarrhea control,1.0
+D247,Buprenorphine,CYP3A4*1B,Altered drug clearance,0.0
+D248,Naloxone,UGT1A1*28,Altered drug metabolism,0.0
+D249,Naltrexone,OPRM1 A118G,Altered response,0.0
+D250,Loperamide,ABCB1,Increased CNS effects,0.0
+D251,Diphenhydramine,CYP2D6*10,Altered drug clearance,0.0
+P146,Diphenoxylate,OPRM1 Variant,Enhanced GI motility suppression,1.0
+P147,Bisacodyl,SCN5A Normal,Better constipation relief,1.0
+P148,Docusate,SLC26A3 Normal,Optimized stool softening,1.0
+D252,Loratadine,CYP3A4*22,Increased drug exposure,0.0
+D253,Cetirizine,ABCB1,Altered drug transport,0.0
+D254,Fexofenadine,SLCO1B1*5,Reduced drug clearance,0.0
+D255,Promethazine,CYP2D6*4,Altered metabolism,0.0
+P149,Psyllium,SLC5A1 Normal,Enhanced fiber absorption,1.0
+P150,Lactulose,SLC5A1 Variant,Improved bowel movement regulation,1.0
+D256,Ranitidine,CYP2C19*2,Reduced metabolism,0.0
+D257,Famotidine,SLC22A2,Altered drug transport,0.0
+D258,Omeprazole,CYP2C19*3,Reduced metabolism,0.0
+P192,Liothyronine,DIO2 Normal,Better T3 conversion,1.0
+P193,Propylthiouracil,TPO Variant,Improved hyperthyroidism management,1.0
+P194,Methimazole,TPO Normal,Better thyroid suppression,1.0
+P195,Hydrocortisone,NR3C1 Normal,Optimized adrenal hormone balance,1.0
+P196,Prednisone,NR3C1 Variant,Enhanced anti-inflammatory response,1.0
+D259,Pantoprazole,CYP2C19*17,Increased drug clearance,0.0
+D260,Rabeprazole,CYP2C19*2,Reduced effectiveness,0.0
+D261,Metformin,SLC22A1,Altered drug transport,0.0
+D262,Glipizide,CYP2C9*3,Increased drug concentration,0.0
+P197,Dexamethasone,NR3C1 Normal,Better corticosteroid efficacy,1.0
+P198,Fludrocortisone,NR3C2 Normal,Optimized sodium retention,1.0
+P199,Testosterone,AR Normal,Improved androgenic response,1.0
+D263,Glyburide,ABCC8,Altered insulin secretion,0.0
+D264,Repaglinide,SLCO1B1*5,Reduced drug uptake,0.0
+D265,Pioglitazone,CYP2C8*3,Altered drug metabolism,0.0
+D266,Rosiglitazone,PPARG,Altered drug response,0.0
+P200,Estradiol,ESR1 Normal,Better estrogen receptor activation,1.0
+P201,Progesterone,PGR Normal,Optimized reproductive health,1.0
+P202,Tamoxifen,ESR1 Variant,Improved breast cancer prevention,1.0
+P203,Raloxifene,ESR1 Normal,Better osteoporosis management,1.0
+P204,Finasteride,SRD5A2 Normal,Optimized DHT suppression,1.0
+D267,Sitagliptin,DPP4 Polymorphism,Reduced effectiveness,0.0
+D268,Vildagliptin,CES1,Altered metabolism,0.0
+D269,Exenatide,GLP1R Variant,Reduced drug response,0.0
+D270,Liraglutide,GLP1R Polymorphism,Altered drug efficacy,0.0
+D271,Insulin Lispro,INS VNTR,Altered insulin response,0.0
+P205,Dutasteride,SRD5A2 Variant,Better prostate enlargement control,1.0
+P206,Tamsulosin,ADRA1A Normal,Improved urinary flow,1.0
+P207,Silodosin,ADRA1A Variant,Optimized benign prostatic hyperplasia treatment,1.0
+D272,Insulin Aspart,INS Gene Variant,Increased hypoglycemia risk,0.0
+D273,Canagliflozin,SLC5A2 Mutation,Reduced drug efficacy,0.0
+D274,Dapagliflozin,SLC5A2 Variant,Altered glucose clearance,0.0
+D275,Empagliflozin,SLC5A2 Polymorphism,Altered drug effectiveness,0.0
+D276,Ertugliflozin,SLC5A2 Mutation,Altered glucose transport,0.0
+P208,Sildenafil,PDE5A Normal,Better erectile function,1.0
+D277,Pramlintide,IAPP Mutation,Reduced drug response,0.0
+D278,Colesevelam,FXR Gene Variant,Altered cholesterol metabolism,0.0
+D279,Bromocriptine,DRD2 Polymorphism,Altered dopamine response,0.0
+D280,Miglitol,MGAM Mutation,Reduced drug efficacy,0.0
