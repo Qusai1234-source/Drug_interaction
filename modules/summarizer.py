@@ -200,7 +200,7 @@ except Exception:
     pass
 from pprint import pprint
 inputs = {
-    "path": r"C:\Projects\Drug_interaction\src\WhatsApp Image 2025-03-06 at 19.45.22_1341e2fa.jpg"
+    "path": r"C:\Projects\Drug_interaction\Data\WhatsApp Image 2025-03-06 at 19.45.22_1341e2fa.jpg"
 }
 for output in app.stream(inputs):
     for key, value in output.items():
