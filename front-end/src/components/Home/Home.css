@@ -1,0 +1,233 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Navbar */
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+
+/* Logo Section */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  white-space: nowrap;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000; /* Add if needed */
+}
+
+/* Centered Navigation Links */
+.nav-links {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.nav-links a.active {
+  font-weight: bold;
+  border-bottom: 2px solid blue; /* Match first code's blue color */
+  padding-bottom: 6px;
+}
+
+/* Right Side Buttons Container */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px !important;
+}
+
+/* Button Styles from First Code */
+.btn-outline {
+  padding: 8px 15px;
+  border: 2px solid blue !important;
+  background: none;
+  color: blue;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right:10px;
+}
+
+.btn-primary {
+  padding: 8px 15px;
+  border: 2px !important;
+  background: blue;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-right:10px;
+}
+
+/* Remove hover effects from original code */
+.nav-links a:hover {
+  background-color: transparent;
+  color: inherit;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+}
+
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .hero h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .hero-buttons button {
+    margin: 10px;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .primary-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  .secondary-btn {
+    border: 1px solid #ccc;
+    background: white;
+    color: #666;
+  }
+  
+  /* Video Placeholder */
+  .video-container {
+    width: 80%;
+    max-width: 500px;
+    height: 200px;
+    background: #ddd;
+    margin: 20px auto;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .play-icon {
+    color: #007bff;
+    font-size: 20px;
+  }
+  
+  /* Features */
+  .features {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+  
+  .feature {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .feature-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+  }
+  
+  .pink {
+    background: #ff6384;
+  }
+  
+  .primary {
+    background: #007bff;
+  }
+  
+  .blue {
+    background: #36a2eb;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #222;
+    color: white;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .subscribe {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .subscribe input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    width: 200px;
+  }
+  
+  .subscribe button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 0 4px 4px 0;
+  }
+  

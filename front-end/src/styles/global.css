@@ -1,0 +1,60 @@
+:root {
+    --background: #ffffff;
+    --foreground: #0a0a0a;
+  
+    --card: #ffffff;
+    --card-foreground: #0a0a0a;
+  
+    --popover: #ffffff;
+    --popover-foreground: #0a0a0a;
+  
+    --primary: #6a5acd;
+    --primary-foreground: #f0f8ff;
+  
+    --secondary: #e5e7eb;
+    --secondary-foreground: #1c1c1e;
+  
+    --muted: #e5e7eb;
+    --muted-foreground: #6b7280;
+  
+    --accent: #e5e7eb;
+    --accent-foreground: #1c1c1e;
+  
+    --destructive: #dc2626;
+    --destructive-foreground: #f0f8ff;
+  
+    --border: #d1d5db;
+    --input: #d1d5db;
+    --ring: #0a0a0a;
+  
+    --radius: 8px;
+  }
+  
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    color: var(--primary);
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  p {
+    color: var(--muted-foreground);
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
