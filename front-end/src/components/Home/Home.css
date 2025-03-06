@@ -170,7 +170,7 @@ body {
     font-size: 20px;
   }
   
-  /* Features */
+ 
   .features {
     display: flex;
     justify-content: center;
@@ -200,8 +200,7 @@ body {
   .blue {
     background: #36a2eb;
   }
-  
-  /* Footer */
+
   .footer {
     background: #222;
     color: white;

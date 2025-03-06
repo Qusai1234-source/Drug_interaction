@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Download, Printer, Share2, CheckCircle, AlertCircle, MessageCircle, X } from "lucide-react";
-import Navbar from "../Nav/Navbar";  // Importing Navbar
 import "./AnalysisResults.css";
 
 export default function AnalysisResults() {
@@ -8,7 +7,7 @@ export default function AnalysisResults() {
 
   return (
     <div className="container">
-      {/* Main Content */}
+      
       <div className="content">
         <div className="header">
           <h1>Analysis Results</h1>
@@ -19,7 +18,7 @@ export default function AnalysisResults() {
           </div>
         </div>
 
-        {/* Patient Information */}
+        
         <div className="card">
           <h2>Patient Information</h2>
           <div className="info-grid">
@@ -50,7 +49,7 @@ export default function AnalysisResults() {
           </div>
         </div>
 
-        {/* Medication Analysis */}
+        
         <div className="card">
           <h2>Medication Analysis</h2>
           <table className="table">
@@ -92,12 +91,12 @@ export default function AnalysisResults() {
         </div>
       </div>
 
-      {/* Chatbot Button */}
+      
       <button className="chatbot-btn" onClick={() => setShowChatbot(!showChatbot)}>
         <MessageCircle className="chat-icon" />
       </button>
 
-      {/* Chatbot Window */}
+      
       {showChatbot && (
         <div className="chatbot-container">
           <div className="chatbot-header">
