@@ -1,12 +1,13 @@
-import React from "react";
-import { Download, Printer, Share2, CheckCircle, AlertCircle } from "lucide-react";
+import React, { useState } from "react";
+import { Download, Printer, Share2, CheckCircle, AlertCircle, MessageCircle, X } from "lucide-react";
 import Navbar from "../Nav/Navbar";  // Importing Navbar
 import "./AnalysisResults.css";
 
 export default function AnalysisResults() {
+  const [showChatbot, setShowChatbot] = useState(false);
+
   return (
     <div className="container">
-
       {/* Main Content */}
       <div className="content">
         <div className="header">
@@ -90,6 +91,26 @@ export default function AnalysisResults() {
           </table>
         </div>
       </div>
+
+      {/* Chatbot Button */}
+      <button className="chatbot-btn" onClick={() => setShowChatbot(!showChatbot)}>
+        <MessageCircle className="chat-icon" />
+      </button>
+
+      {/* Chatbot Window */}
+      {showChatbot && (
+        <div className="chatbot-container">
+          <div className="chatbot-header">
+            <h3>AI Chatbot</h3>
+            <button onClick={() => setShowChatbot(false)} className="close-btn">
+              <X />
+            </button>
+          </div>
+          <div className="chatbot-body">
+            <p>Hello! How can I assist you today?</p>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
