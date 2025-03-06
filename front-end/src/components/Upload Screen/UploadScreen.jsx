@@ -1,21 +1,17 @@
 import React, { useState } from "react";
-<<<<<<< HEAD
-import { Upload, FileImage, CheckCircle, FileUp, X } from "lucide-react"; 
-=======
-import { Upload, FileImage, CheckCircle, FileUp } from "lucide-react";
+import axios from "axios";
+import { Upload, FileImage, CheckCircle, FileUp, X } from "lucide-react";
 import Navbar from "../Nav/Navbar";  
->>>>>>> AI
 import "./UploadScreen.css";
 
 export default function UploadScreen() {
   const [selectedFile, setSelectedFile] = useState(null);
-<<<<<<< HEAD
   const [medicine, setMedicine] = useState("");
   const [medicinesList, setMedicinesList] = useState([]);
-  const [submittedData, setSubmittedData] = useState(null);
-=======
->>>>>>> AI
+  const [prediction, setPrediction] = useState(null);
+  const [uploadMessage, setUploadMessage] = useState("");
 
+  // Handle File Selection
   const handleFileChange = (event) => {
     const file = event.target.files[0];
     if (file) {
@@ -23,15 +19,18 @@ export default function UploadScreen() {
     }
   };
 
-<<<<<<< HEAD
+  // Remove Selected File
   const removeFile = () => {
     setSelectedFile(null);
+    setUploadMessage("");
   };
 
+  // Handle Medicine Input Change
   const handleMedicineChange = (e) => {
     setMedicine(e.target.value);
   };
 
+  // Add Medicine to List
   const addMedicine = () => {
     if (medicine.trim() !== "" && !medicinesList.includes(medicine.trim())) {
       setMedicinesList([...medicinesList, medicine.trim()]);
@@ -39,34 +38,57 @@ export default function UploadScreen() {
     }
   };
 
+  // Remove Medicine from List
   const removeMedicine = (med) => {
     setMedicinesList(medicinesList.filter((m) => m !== med));
   };
 
-  const handleSubmit = () => {
-    const submissionData = {
-      medicines: medicinesList,
-      file: selectedFile ? selectedFile.name : "No file selected",
-    };
+  // Upload File to Flask
+  const handleFileUpload = async () => {
+    if (!selectedFile) {
+      setUploadMessage("Please select a file first.");
+      return;
+    }
 
-    setSubmittedData(submissionData);
+    const formData = new FormData();
+    formData.append("file", selectedFile);
 
-    // Reset fields
-    setSelectedFile(null);
-    setMedicine("");
-    setMedicinesList([]);
+    try {
+      const response = await axios.post("http://127.0.0.1:5000/upload", formData, {
+        headers: { "Content-Type": "multipart/form-data" },
+      });
+      setUploadMessage(response.data.message);
+    } catch (error) {
+      console.error("Error uploading file:", error);
+      setUploadMessage("File upload failed. Try again.");
+    }
+  };
+
+  // Submit Medicines List for Prediction
+  const handleSubmit = async () => {
+    if (medicinesList.length === 0) {
+      alert("Please enter at least one medicine.");
+      return;
+    }
+
+    try {
+      const response = await axios.post("http://127.0.0.1:5000/predict", {
+        medicines: medicinesList,
+      });
+
+      setPrediction(response.data.prediction);
+    } catch (error) {
+      console.error("Error submitting data:", error);
+    }
   };
 
   return (
     <div className="container">
-=======
-  return (
-    <div className="container">
-
->>>>>>> AI
+      <Navbar />
       <div className="upload-container">
-        <h2 className="upload-title">How to Upload Your Documents</h2>
+        <h2 className="upload-title">Upload Your Prescription</h2>
 
+        {/* Steps Indicator */}
         <div className="steps">
           <div className="step active">
             <div className="icon-box">
@@ -88,6 +110,7 @@ export default function UploadScreen() {
           </div>
         </div>
 
+        {/* File Upload Box */}
         <div className="upload-box">
           <input
             type="file"
@@ -99,6 +122,7 @@ export default function UploadScreen() {
           <label htmlFor="fileInput" className="btn-upload">
             <Upload className="icon" /> Upload Your Image
           </label>
+
           <div className="drop-zone">
             <p>Drag and Drop your files here</p>
             <span>or</span>
@@ -106,6 +130,7 @@ export default function UploadScreen() {
           </div>
         </div>
 
+        {/* File Preview & Upload Button */}
         {selectedFile && (
           <div className="upload-status">
             <h3>Upload Status</h3>
@@ -119,18 +144,19 @@ export default function UploadScreen() {
                 <p className="file-name">{selectedFile.name}</p>
                 <p>{selectedFile.type}</p>
                 <p className="file-ready">Ready to Upload</p>
-<<<<<<< HEAD
                 <button className="btn-remove" onClick={removeFile}>
                   <X className="remove-icon" /> Remove Image
                 </button>
-=======
->>>>>>> AI
               </div>
             </div>
+            <button className="btn-submit" onClick={handleFileUpload}>
+              Upload Image
+            </button>
+            {uploadMessage && <p className="upload-message">{uploadMessage}</p>}
           </div>
         )}
 
-<<<<<<< HEAD
+        {/* Medicine Input Section */}
         <div className="medicine-input">
           <label htmlFor="medicine">Enter the medicines you are taking:</label>
           <div className="medicine-entry">
@@ -153,27 +179,25 @@ export default function UploadScreen() {
           </div>
         </div>
 
+        {/* Submit Button */}
         <button className="btn-submit large-btn" onClick={handleSubmit}>
           Submit for Review
         </button>
-=======
-        <button className="btn-submit large-btn">Submit for Review</button>
->>>>>>> AI
+
         <p className="note">
-          Your documents will be reviewed by a healthcare professional
+          Your documents will be reviewed by a healthcare professional.
         </p>
+
+        {/* Prediction Output */}
+        {prediction && (
+          <div className="json-output">
+            <h3>Predicted Interactions:</h3>
+            <pre>{JSON.stringify(prediction, null, 2)}</pre>
+          </div>
+        )}
       </div>
 
-<<<<<<< HEAD
-      {submittedData && (
-        <div className="json-output">
-          <h3>Submitted Data:</h3>
-          <pre>{JSON.stringify(submittedData, null, 2)}</pre>
-        </div>
-      )}
-
-=======
->>>>>>> AI
+      {/* Footer Section */}
       <footer className="footer">
         <div className="subscribe">
           <input type="email" placeholder="Enter your email" />

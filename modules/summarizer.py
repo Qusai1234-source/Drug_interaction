@@ -16,9 +16,9 @@ import os
 import spacy
 import re
 
-load_dotenv()
-GOOGLE_API_KEY=os.getenv("GOOGLE_API_KEY")
-llm=ChatGoogleGenerativeAI(api_key=GOOGLE_API_KEY,model="gemini-2.0-flash",temperature = 0.1)
+# load_dotenv()
+# GOOGLE_API_KEY=os.getenv("GOOGLE_API_KEY")
+llm=ChatGoogleGenerativeAI(api_key="AIzaSyAEqCEpjV4_6nZFKGQv8cxiyffiUNdDjGE",model="gemini-1.5-flash",temperature = 0.1)
 
 
 class GraphState(TypedDict):
