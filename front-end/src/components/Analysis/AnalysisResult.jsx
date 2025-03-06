@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 import React, { useState } from "react";
 import { Download, Printer, Share2, CheckCircle, AlertCircle, MessageCircle, X } from "lucide-react";
+import Navbar from "../Nav/Navbar";  // Importing Navbar
 import "./AnalysisResults.css";
 
 export default function AnalysisResults() {
@@ -8,19 +8,8 @@ export default function AnalysisResults() {
 
   return (
     <div className="container">
-      
-=======
-import React from "react";
-import { Download, Printer, Share2, CheckCircle, AlertCircle } from "lucide-react";
-import Navbar from "../Nav/Navbar";  // Importing Navbar
-import "./AnalysisResults.css";
+      <Navbar /> {/* Keeping Navbar from AI branch */}
 
-export default function AnalysisResults() {
-  return (
-    <div className="container">
-
-      {/* Main Content */}
->>>>>>> AI
       <div className="content">
         <div className="header">
           <h1>Analysis Results</h1>
@@ -31,11 +20,7 @@ export default function AnalysisResults() {
           </div>
         </div>
 
-<<<<<<< HEAD
-        
-=======
         {/* Patient Information */}
->>>>>>> AI
         <div className="card">
           <h2>Patient Information</h2>
           <div className="info-grid">
@@ -66,11 +51,7 @@ export default function AnalysisResults() {
           </div>
         </div>
 
-<<<<<<< HEAD
-        
-=======
         {/* Medication Analysis */}
->>>>>>> AI
         <div className="card">
           <h2>Medication Analysis</h2>
           <table className="table">
@@ -111,14 +92,12 @@ export default function AnalysisResults() {
           </table>
         </div>
       </div>
-<<<<<<< HEAD
 
-      
+      {/* Chatbot Feature (From Main Branch) */}
       <button className="chatbot-btn" onClick={() => setShowChatbot(!showChatbot)}>
         <MessageCircle className="chat-icon" />
       </button>
 
-      
       {showChatbot && (
         <div className="chatbot-container">
           <div className="chatbot-header">
@@ -132,8 +111,6 @@ export default function AnalysisResults() {
           </div>
         </div>
       )}
-=======
->>>>>>> AI
     </div>
   );
 }
